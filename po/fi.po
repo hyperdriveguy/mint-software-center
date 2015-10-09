@@ -1,0 +1,587 @@
+# Finnish translation for lubuntu-software-center
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the lubuntu-software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-19 21:23+0300\n"
+"PO-Revision-Date: 2012-03-15 12:58+0000\n"
+"Last-Translator: Jiri Grönroos <Unknown>\n"
+"Language-Team: Finnish <fi@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-06-21 05:46+0000\n"
+"X-Generator: Launchpad (build 16677)\n"
+
+#: ../lubuntu-software-center.desktop.in.h:1 ../src/UI.py:61 ../src/UI.py:121
+msgid "Lubuntu Software Center"
+msgstr "Lubuntun sovellusvalikoima"
+
+#: ../lubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Sovellusvalikoima"
+
+#: ../lubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr ""
+"Mahdollistaa valinnan tuhansista Ubuntulle saatavilla olevista sovelluksista."
+
+#: ../src/control.py:98
+msgid ""
+"Please install the package app-install-data, lubuntu software center will "
+"not work in beginner mode without it"
+msgstr ""
+"Asenna paketti app-install-data. Lubuntun sovellusvalikoima ei toimi "
+"aloittelijatilassa ilman kyseistä pakettia"
+
+#: ../src/main.py:135 ../src/main.py:152 ../src/main.py:382 ../src/main.py:389
+#: ../src/threadingops.py:80
+msgid "packages listed"
+msgstr "pakettia listattu"
+
+#: ../src/main.py:150 ../src/main.py:381
+msgid "Installed"
+msgstr "Asennetut"
+
+#: ../src/main.py:217 ../src/main.py:218
+msgid "Selected package "
+msgstr "Valittu paketti "
+
+#: ../src/main.py:222 ../src/main.py:224 ../src/main.py:496
+msgid "Added to the Apps Basket"
+msgstr "Lisätty sovelluskoriin"
+
+#. print widget.get_label()
+#: ../src/main.py:228 ../src/main.py:230 ../src/main.py:246
+msgid "Add to the Apps Basket"
+msgstr "Lisää sovelluskoriin"
+
+#: ../src/main.py:234 ../src/main.py:236 ../src/main.py:238 ../src/main.py:251
+msgid "Remove from the system"
+msgstr "Poista järjestelmästä"
+
+#: ../src/main.py:331
+msgid "Searching in Installed"
+msgstr "Haetaan asennetuista"
+
+#: ../src/main.py:365
+msgid "Searching in"
+msgstr "Etsitään luokasta"
+
+#: ../src/main.py:421 ../src/main.py:425
+msgid " (requested by "
+msgstr ""
+
+#: ../src/main.py:421
+msgid "unknown"
+msgstr "tuntematon"
+
+#: ../src/main.py:427
+msgid "Put some apps in the basket to install them"
+msgstr "Aseta sovelluksia koriin asentaaksesi ne"
+
+#: ../src/main.py:430 ../src/main.py:435 ../src/main.py:438 ../src/main.py:535
+#: ../src/UI.py:79 ../data/lsc.ui.h:14
+msgid "Apps Basket"
+msgstr "Sovelluskori"
+
+#: ../src/main.py:432
+msgid "package marked"
+msgstr "paketti merkitty"
+
+#: ../src/main.py:432
+msgid "to download"
+msgstr ""
+
+#: ../src/main.py:432
+#, fuzzy
+msgid "to install"
+msgstr "Asennetut"
+
+#: ../src/main.py:439
+msgid "packages"
+msgstr "pakettia"
+
+#: ../src/main.py:481
+msgid "Available Categories"
+msgstr "Saatavilla olevat luokat"
+
+#: ../src/main.py:483
+msgid "Choose a category to start"
+msgstr ""
+
+#: ../src/main.py:551
+msgid "Error"
+msgstr "Virhe"
+
+#: ../src/main.py:565
+msgid "Reviews"
+msgstr ""
+
+#: ../src/main.py:591
+msgid "Download Size:"
+msgstr "Latauksen koko:"
+
+#: ../src/main.py:592
+msgid "Installed Size:"
+msgstr "Koko asennettuna:"
+
+#: ../src/main.py:593
+msgid "Version:"
+msgstr "Versio:"
+
+#: ../src/main.py:595
+msgid "Infos on"
+msgstr ""
+
+#: ../src/notify.py:29
+msgid "Apps installed successfully"
+msgstr "Sovellukset asennettu onnistuneesti"
+
+#: ../src/notify.py:32
+msgid "Apps removed successfully"
+msgstr "Sovellukset poistettu onnistuneesti"
+
+#: ../src/notify.py:35
+msgid ""
+"No connection found, you can't install \n"
+" applications, however you can browse for them"
+msgstr ""
+"Ei verkkoyhteyttä, joten et voi \n"
+" asentaa sovelluksia, mutta voit selata niitä"
+
+#: ../src/preferences.py:34
+msgid "Lubuntu Software Center Preferences"
+msgstr "Lubuntun sovellusvalikoiman asetukset"
+
+#: ../src/preferences.py:52
+msgid "Open Software Properties"
+msgstr ""
+
+#. ----------------------------------------------
+#: ../src/preferences.py:66 ../data/preferences.ui.h:8
+msgid "General"
+msgstr "Yleiset"
+
+#: ../src/preferences.py:72 ../data/preferences.ui.h:2
+msgid "Expert Mode"
+msgstr "Asiantuntijatila"
+
+#: ../src/preferences.py:75
+msgid "Performance"
+msgstr ""
+
+#: ../src/preferences.py:81
+msgid "Render Icons"
+msgstr ""
+
+#: ../src/preferences.py:86
+msgid "Download Screenshots"
+msgstr "Lataa kuvakaappaukset"
+
+#: ../src/preferences.py:91
+msgid "Check connection at startup"
+msgstr "Tarkista verkkoyhteys aloittaessa"
+
+#. If only the Reviews title is in the box
+#: ../src/threadingops.py:172
+msgid "No reviews available"
+msgstr ""
+
+#: ../src/UI.py:77 ../data/lsc.ui.h:11
+msgid "Get Software"
+msgstr "Hae sovelluksia"
+
+#: ../src/UI.py:78 ../data/lsc.ui.h:12
+msgid "Installed Software"
+msgstr "Asennetut sovellukset"
+
+#: ../src/UI.py:125
+msgid "Light but user-friendly Software Center for Lubuntu"
+msgstr "Kevyt ja helppokäyttöinen sovellusvalikoima Lubuntulle"
+
+#. -------------------------------------------------
+#: ../src/UI.py:143
+msgid "Show at least 20 results"
+msgstr "Näytä vähintään 20 tulosta"
+
+#: ../src/UI.py:144
+msgid "Show all results"
+msgstr "Näytä kaikki tulokset"
+
+#: ../src/widgets/appsinfo.py:120 ../data/lsc.ui.h:41
+msgid "Description"
+msgstr "Kuvaus"
+
+#: ../src/widgets/appsinfo.py:121
+msgid "Check for reviews"
+msgstr ""
+
+#: ../src/widgets/appsview.py:30 ../src/widgets/appsview.py:96
+msgid "No Packages Found"
+msgstr "Paketteja ei löytynyt"
+
+#: ../src/widgets/appsview.py:63
+msgid "Details on the package"
+msgstr "Paketin tiedot"
+
+#: ../src/widgets/appsview.py:64
+msgid "Add/remove"
+msgstr "Lisää/poista"
+
+#: ../src/widgets/appsview.py:97
+msgid "Search all categories instead"
+msgstr "Etsi kaikista luokista"
+
+#: ../src/widgets/basket.py:51
+msgid "Install Packages"
+msgstr "Asenna paketit"
+
+#: ../src/widgets/basket.py:52
+msgid "Discard"
+msgstr ""
+
+#: ../src/widgets/basket.py:65 ../data/lsc.ui.h:30
+msgid "Package"
+msgstr "Paketti"
+
+#: ../src/widgets/basket.py:66
+msgid "To Download"
+msgstr ""
+
+#: ../src/widgets/basket.py:67
+#, fuzzy
+msgid "To Install"
+msgstr "Asennetut"
+
+#: ../src/widgets/basket.py:68 ../data/lsc.ui.h:32
+msgid "Version"
+msgstr "Versio"
+
+#: ../src/widgets/screenshot.py:37
+msgid "Submit a screenshot"
+msgstr "Lähetä kuvakaappaus"
+
+#: ../src/widgets/searchentry.py:31 ../src/widgets/searchentry.py:34
+msgid "Search a package..."
+msgstr "Hae pakettia..."
+
+#: ../data/lsc.ui.h:1
+msgid "Copyright © 2011 Lubuntu team"
+msgstr "Tekijänoikeus © 2011 Lubuntu-tiimi"
+
+#: ../data/lsc.ui.h:2
+msgid "Software Center for the Lubuntu project"
+msgstr "Lubuntun sovellusvalikoima"
+
+#: ../data/lsc.ui.h:3
+msgid ""
+"Sometimes, when you remove an application, the config files remains. Click "
+"on this button to remove the old config files"
+msgstr ""
+"Toisinaan kun sovelus poistetaan, siitä jää asetustiedostoja koneelle. "
+"Napsauta tätä painiketta poistaaksesi vanhat asetustiedostot"
+
+#: ../data/lsc.ui.h:4
+msgid ""
+"Some applications needs other packages to work, when you remove these "
+"applications the other packages aren't removed. Click on this button to "
+"remove the unused packages"
+msgstr ""
+
+#: ../data/lsc.ui.h:5
+msgid ""
+"When you install an application, the files needed for the installation are "
+"downloaded locally. Click on this button to remove the unuseful downloaded "
+"packages"
+msgstr ""
+
+#: ../data/lsc.ui.h:6
+msgid "_File"
+msgstr "_Tiedosto"
+
+#: ../data/lsc.ui.h:7
+msgid "_Edit"
+msgstr "_Muokkaa"
+
+#: ../data/lsc.ui.h:8 ../data/preferences.ui.h:17
+msgid "Software Properties"
+msgstr ""
+
+#: ../data/lsc.ui.h:9
+msgid "_Help"
+msgstr "_Ohje"
+
+#: ../data/lsc.ui.h:10
+msgid "Home"
+msgstr ""
+
+#: ../data/lsc.ui.h:13
+msgid "Clean Disk"
+msgstr ""
+
+#: ../data/lsc.ui.h:15
+msgid ""
+"Update the programs list. Clicking on this\n"
+"button, the updated softwares list will be\n"
+"downloaded"
+msgstr ""
+
+#: ../data/lsc.ui.h:18
+msgid "Update"
+msgstr "Päivitä"
+
+#: ../data/lsc.ui.h:19 ../data/preferences.ui.h:7
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: ../data/lsc.ui.h:20
+msgid "calculating packages..."
+msgstr "lasketaan paketteja..."
+
+#: ../data/lsc.ui.h:21
+msgid "page 1"
+msgstr "sivu 1"
+
+#: ../data/lsc.ui.h:22
+msgid "column"
+msgstr "sarake"
+
+#: ../data/lsc.ui.h:23
+msgid ""
+"                            No packages found\n"
+"Do you want you search all categories instead?"
+msgstr ""
+
+#: ../data/lsc.ui.h:25
+msgid "No package matches"
+msgstr ""
+
+#: ../data/lsc.ui.h:26
+msgid "page 2"
+msgstr "sivu 2"
+
+#: ../data/lsc.ui.h:27
+msgid "page 3"
+msgstr "sivu 3"
+
+#: ../data/lsc.ui.h:28
+msgid "Mb to download"
+msgstr "Mt ladattavaa"
+
+#: ../data/lsc.ui.h:29
+msgid "Install the packages"
+msgstr "Asenna paketit"
+
+#: ../data/lsc.ui.h:31
+msgid "Download size"
+msgstr "Latauksen koko"
+
+#: ../data/lsc.ui.h:33
+msgid "Remove <package> from the Apps Basket"
+msgstr "Poista <package> sovelluskorista"
+
+#: ../data/lsc.ui.h:34
+msgid "Page 4"
+msgstr "sivu 4"
+
+#: ../data/lsc.ui.h:35
+msgid "label"
+msgstr ""
+
+#: ../data/lsc.ui.h:36
+msgid "button"
+msgstr ""
+
+#: ../data/lsc.ui.h:37
+msgid ""
+"                 No Screenshot Found\n"
+"Please check your Internet connection"
+msgstr ""
+"                 Kuvakaappausta ei löytynyt\n"
+"Tarkista verkkoyhteytesi"
+
+#: ../data/lsc.ui.h:39
+msgid "Click to maximize"
+msgstr "Napsauta suurentaaksesi"
+
+#: ../data/lsc.ui.h:40
+msgid "page 5"
+msgstr "sivu 5"
+
+#: ../data/lsc.ui.h:42
+msgid "No config files found"
+msgstr "Asetustiedostoja ei löytynyt"
+
+#: ../data/lsc.ui.h:43
+msgid "Old configuration files"
+msgstr "Vanhat asetustiedostot"
+
+#: ../data/lsc.ui.h:44
+msgid "No downloaded files found"
+msgstr "Ladattuja tiedostoja ei löytynyt"
+
+#: ../data/lsc.ui.h:45
+msgid "Downloaded Packages"
+msgstr "Ladatut paketit"
+
+#: ../data/lsc.ui.h:46
+msgid "Clean up your disk"
+msgstr ""
+
+#: ../data/lsc.ui.h:47
+msgid "Clean root trash"
+msgstr ""
+
+#: ../data/lsc.ui.h:48
+msgid ""
+"The trash of the root user (located in /root)\n"
+"can be full of old and unuseful files, cleaning\n"
+"it often means a quite gain of disk space"
+msgstr ""
+
+#: ../data/lsc.ui.h:51
+msgid "Clean thumbnails cache"
+msgstr ""
+
+#: ../data/lsc.ui.h:52
+msgid ""
+"When you open a folder with images,\n"
+"the thumbnails are dinamically created\n"
+"and saved in a hide folder in your home.\n"
+"Click here to clean this folder (this won't\n"
+"delete important files)"
+msgstr ""
+
+#: ../data/lsc.ui.h:57
+msgid "Clean Configuration"
+msgstr ""
+
+#: ../data/lsc.ui.h:58
+msgid "Clean Cache"
+msgstr ""
+
+#: ../data/lsc.ui.h:59
+msgid "Save Disk Space"
+msgstr ""
+
+#: ../data/lsc.ui.h:60
+msgid "page 6"
+msgstr "sivu 6"
+
+#: ../data/preferences.ui.h:1
+msgid "Beginner Mode"
+msgstr "Aloittelijatila"
+
+#: ../data/preferences.ui.h:3
+msgid "Icons only"
+msgstr "Vain kuvakkeet"
+
+#: ../data/preferences.ui.h:4
+msgid "Text only"
+msgstr "Vain teksti"
+
+#: ../data/preferences.ui.h:5
+msgid "Text below icons"
+msgstr "Teksti kuvakkeiden alla"
+
+#: ../data/preferences.ui.h:6
+msgid "Text beside icons"
+msgstr "Teksti kuvakkeiden vieressä"
+
+#: ../data/preferences.ui.h:9
+msgid "Mode of visualization"
+msgstr "Esitystila"
+
+#: ../data/preferences.ui.h:10
+msgid ""
+"Choose the mode you want, in Beginner Mode are listed only the real "
+"applications, in Expert Mode are listed all the packages included libraries "
+"and command-line tools."
+msgstr ""
+
+#: ../data/preferences.ui.h:11
+msgid "Use the packages database"
+msgstr "Käytä pakettitietokantaa"
+
+#: ../data/preferences.ui.h:12
+msgid "Interface"
+msgstr "Käyttöliittymä"
+
+#: ../data/preferences.ui.h:13
+msgid "ToolBar Style"
+msgstr "Työkalupalkin tyyli"
+
+#: ../data/preferences.ui.h:14
+msgid "Choose the ToolBar style"
+msgstr "Valitse työkalupalkin tyyli"
+
+#: ../data/preferences.ui.h:15
+msgid "Show MenuBar"
+msgstr "Näytä valikkopalkkki"
+
+#: ../data/preferences.ui.h:16
+msgid "Show StatusBar"
+msgstr "Näytä tilapalkki"
+
+#: ../data/categories.ini.in .h:1
+msgid "Utilities"
+msgstr ""
+
+#: ../data/categories.ini.in .h:2
+msgid "Universal Access"
+msgstr ""
+
+#: ../data/categories.ini.in .h:3
+msgid "Audio & Video"
+msgstr ""
+
+#: ../data/categories.ini.in .h:4
+msgid "Games"
+msgstr ""
+
+#: ../data/categories.ini.in .h:5
+msgid "Graphic"
+msgstr ""
+
+#: ../data/categories.ini.in .h:6
+#, fuzzy
+msgid "Internet"
+msgstr "Käyttöliittymä"
+
+#: ../data/categories.ini.in .h:7
+msgid "Education"
+msgstr ""
+
+#: ../data/categories.ini.in .h:8
+msgid "Science & Engineering"
+msgstr ""
+
+#: ../data/categories.ini.in .h:9
+msgid "System"
+msgstr ""
+
+#: ../data/categories.ini.in .h:10
+msgid "Developer Tools"
+msgstr ""
+
+#: ../data/categories.ini.in .h:11
+msgid "Themes & Tweaks"
+msgstr ""
+
+#: ../data/categories.ini.in .h:12
+msgid "Fonts"
+msgstr ""
+
+#: ../data/categories.ini.in .h:13
+msgid "Office"
+msgstr ""
+
+#: ../data/categories.ini.in .h:14
+msgid "All"
+msgstr ""

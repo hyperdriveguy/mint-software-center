@@ -1,0 +1,37 @@
+Source: lubuntu-software-center
+Section: python
+Priority: extra
+Maintainer: Julien Lavergne <gilir@ubuntu.com>
+Build-Depends: debhelper (>= 9),
+               python (>= 2.6.6-3~),
+               intltool,
+               libglib2.0-dev
+X-Python-Version: >= 2.6
+Standards-Version: 3.9.4
+Homepage: https://launchpad.net/lubuntu-software-center
+
+Package: lubuntu-software-center
+Architecture: all
+Depends: ${misc:Depends},
+	${python:Depends},
+	python-apt,
+	python-gi | python-gobject,
+	gir1.2-gtk-3.0,
+	gir1.2-notify-0.7,
+	python-pysqlite2,
+	python-aptdaemon,
+	python-aptdaemon.gtk3widgets,
+	python-xdg,
+	app-install-data
+Description: Utility for browsing, installing, removing applications on Lubuntu
+ The Lubuntu Software Center lets you browse and install thousands of
+ applications available for Lubuntu. You can view available
+ applications by category, or search quickly by name or description.
+ You can also examine the applications already installed, and remove
+ those you no longer need.
+ .
+ This center was especially optimised for Lubuntu, but you have access to the
+ same free applications than on Ubuntu Software Center.
+ .
+ To install or remove software using the Center, you need administrator
+ access on the computer.

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Lubuntu Software Center
+GenericName=Software Center
+Comment=Lets you choose from thousands of applications available for Ubuntu
+Exec=mint-software-center
+Icon=lubuntu-software-center
+Terminal=false
+Type=Application
+Categories=PackageManager;GTK;System;Settings;
+StartupNotify=true
+Keywords=Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;
+Name[en_US]=mint-software-center.desktop
+GenericName[en_US.UTF-8]=Mint Software Center
+Comment[en_US.UTF-8]=Lets you choose from thousands of applications available for Linux Mint

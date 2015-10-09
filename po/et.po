@@ -1,0 +1,603 @@
+# Estonian translation for lubuntu-software-center
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the lubuntu-software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-19 21:23+0300\n"
+"PO-Revision-Date: 2013-02-17 14:01+0000\n"
+"Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
+"Language-Team: Estonian <et@li.org>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-06-21 05:46+0000\n"
+"X-Generator: Launchpad (build 16677)\n"
+
+#: ../lubuntu-software-center.desktop.in.h:1 ../src/UI.py:61 ../src/UI.py:121
+msgid "Lubuntu Software Center"
+msgstr "Lubuntu tarkvarakeskus"
+
+#: ../lubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Tarkvarakeskus"
+
+#: ../lubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr "Võimaldab valida tuhandetest saadaolevatest rakendustest"
+
+#: ../src/control.py:98
+msgid ""
+"Please install the package app-install-data, lubuntu software center will "
+"not work in beginner mode without it"
+msgstr ""
+"Lubuntu tarkvarakeskus ei tööta ilma pakettita app-install-data, palun "
+"paigalda see."
+
+#: ../src/main.py:135 ../src/main.py:152 ../src/main.py:382 ../src/main.py:389
+#: ../src/threadingops.py:80
+msgid "packages listed"
+msgstr "loetletud paketid"
+
+#: ../src/main.py:150 ../src/main.py:381
+msgid "Installed"
+msgstr "Paigaldatud"
+
+#: ../src/main.py:217 ../src/main.py:218
+msgid "Selected package "
+msgstr "Valitud rakendus "
+
+#: ../src/main.py:222 ../src/main.py:224 ../src/main.py:496
+msgid "Added to the Apps Basket"
+msgstr "Lisatud rakenduste korvi"
+
+#. print widget.get_label()
+#: ../src/main.py:228 ../src/main.py:230 ../src/main.py:246
+msgid "Add to the Apps Basket"
+msgstr "Lisa rakenduste korvi"
+
+#: ../src/main.py:234 ../src/main.py:236 ../src/main.py:238 ../src/main.py:251
+msgid "Remove from the system"
+msgstr "Eemalda süsteemist"
+
+#: ../src/main.py:331
+msgid "Searching in Installed"
+msgstr "Otsi paigaldatutest"
+
+#: ../src/main.py:365
+msgid "Searching in"
+msgstr "Otsimine"
+
+#: ../src/main.py:421 ../src/main.py:425
+msgid " (requested by "
+msgstr " (seda nõuab "
+
+#: ../src/main.py:421
+msgid "unknown"
+msgstr "tundmatu"
+
+#: ../src/main.py:427
+msgid "Put some apps in the basket to install them"
+msgstr "Rakenduste paigaldamiseks kasuta rakenduste korvi"
+
+#: ../src/main.py:430 ../src/main.py:435 ../src/main.py:438 ../src/main.py:535
+#: ../src/UI.py:79 ../data/lsc.ui.h:14
+msgid "Apps Basket"
+msgstr "Rakenduste korv"
+
+#: ../src/main.py:432
+msgid "package marked"
+msgstr "rakendust valitud"
+
+#: ../src/main.py:432
+msgid "to download"
+msgstr "allalaadida"
+
+#: ../src/main.py:432
+msgid "to install"
+msgstr "vaja paigaldamiseks"
+
+#: ../src/main.py:439
+msgid "packages"
+msgstr "rakendust"
+
+#: ../src/main.py:481
+msgid "Available Categories"
+msgstr "Saadaolevad kategooriad"
+
+#: ../src/main.py:483
+msgid "Choose a category to start"
+msgstr "Alustamiseks vali kategooria"
+
+#: ../src/main.py:551
+msgid "Error"
+msgstr "Viga"
+
+#: ../src/main.py:565
+msgid "Reviews"
+msgstr "Arvustused"
+
+#: ../src/main.py:591
+msgid "Download Size:"
+msgstr "Allalaadimise suurus:"
+
+#: ../src/main.py:592
+msgid "Installed Size:"
+msgstr "Suurus paigaldatuna:"
+
+#: ../src/main.py:593
+msgid "Version:"
+msgstr "Versioon:"
+
+#: ../src/main.py:595
+msgid "Infos on"
+msgstr "Info"
+
+#: ../src/notify.py:29
+msgid "Apps installed successfully"
+msgstr "Rakendid edukalt installitud"
+
+#: ../src/notify.py:32
+msgid "Apps removed successfully"
+msgstr "Rakendid edukalt eemaldatud"
+
+#: ../src/notify.py:35
+msgid ""
+"No connection found, you can't install \n"
+" applications, however you can browse for them"
+msgstr ""
+"Võrguühendust ei leitud. Saad rakendusi \n"
+"sirvida, kuid mitte paigaldada"
+
+#: ../src/preferences.py:34
+msgid "Lubuntu Software Center Preferences"
+msgstr "Lubuntu Tarkvara Keskuse eelistused"
+
+#: ../src/preferences.py:52
+msgid "Open Software Properties"
+msgstr "Ava tarkvara omadused"
+
+#. ----------------------------------------------
+#: ../src/preferences.py:66 ../data/preferences.ui.h:8
+msgid "General"
+msgstr "Üldine"
+
+#: ../src/preferences.py:72 ../data/preferences.ui.h:2
+msgid "Expert Mode"
+msgstr "Ekspertrežiim"
+
+#: ../src/preferences.py:75
+msgid "Performance"
+msgstr "Jõudlus"
+
+#: ../src/preferences.py:81
+msgid "Render Icons"
+msgstr "Ikoonide näitamine"
+
+#: ../src/preferences.py:86
+msgid "Download Screenshots"
+msgstr "Lae alla ekraanipilte"
+
+#: ../src/preferences.py:91
+msgid "Check connection at startup"
+msgstr "Ühenduse kontrollimine käivitamisel"
+
+#. If only the Reviews title is in the box
+#: ../src/threadingops.py:172
+msgid "No reviews available"
+msgstr "Arvustusi pole"
+
+#: ../src/UI.py:77 ../data/lsc.ui.h:11
+msgid "Get Software"
+msgstr "Tarkvara hankimine"
+
+#: ../src/UI.py:78 ../data/lsc.ui.h:12
+msgid "Installed Software"
+msgstr "Paigaldatud tarkvara"
+
+#: ../src/UI.py:125
+msgid "Light but user-friendly Software Center for Lubuntu"
+msgstr "Kerge kuid kasutajasõbralik Lubuntu tarkvarakeskus"
+
+#. -------------------------------------------------
+#: ../src/UI.py:143
+msgid "Show at least 20 results"
+msgstr "Näita vähemalt 20 tulemust"
+
+#: ../src/UI.py:144
+msgid "Show all results"
+msgstr "Kõigi tulemuste näitamine"
+
+#: ../src/widgets/appsinfo.py:120 ../data/lsc.ui.h:41
+msgid "Description"
+msgstr "Kirjeldus"
+
+#: ../src/widgets/appsinfo.py:121
+msgid "Check for reviews"
+msgstr "Näita arvustusi"
+
+#: ../src/widgets/appsview.py:30 ../src/widgets/appsview.py:96
+msgid "No Packages Found"
+msgstr "Pakette ei leitud"
+
+#: ../src/widgets/appsview.py:63
+msgid "Details on the package"
+msgstr "Paketi üksikajad"
+
+#: ../src/widgets/appsview.py:64
+msgid "Add/remove"
+msgstr "Lisa/eemalda"
+
+#: ../src/widgets/appsview.py:97
+msgid "Search all categories instead"
+msgstr "Otsi kõigist kategooriatest"
+
+#: ../src/widgets/basket.py:51
+msgid "Install Packages"
+msgstr "Pakettide paigaldamine"
+
+#: ../src/widgets/basket.py:52
+msgid "Discard"
+msgstr "Tühista"
+
+#: ../src/widgets/basket.py:65 ../data/lsc.ui.h:30
+msgid "Package"
+msgstr "Pakett"
+
+#: ../src/widgets/basket.py:66
+msgid "To Download"
+msgstr "Allalaadida"
+
+#: ../src/widgets/basket.py:67
+msgid "To Install"
+msgstr "Paigaldatav"
+
+#: ../src/widgets/basket.py:68 ../data/lsc.ui.h:32
+msgid "Version"
+msgstr "Versioon"
+
+#: ../src/widgets/screenshot.py:37
+msgid "Submit a screenshot"
+msgstr "Saada ekraanipilt"
+
+#: ../src/widgets/searchentry.py:31 ../src/widgets/searchentry.py:34
+msgid "Search a package..."
+msgstr "Otsi paketti..."
+
+#: ../data/lsc.ui.h:1
+msgid "Copyright © 2011 Lubuntu team"
+msgstr "Autoriõigus © 2011 Lubuntu tiim"
+
+#: ../data/lsc.ui.h:2
+msgid "Software Center for the Lubuntu project"
+msgstr "Tarkvarakeskus Lubuntu projektile"
+
+#: ../data/lsc.ui.h:3
+msgid ""
+"Sometimes, when you remove an application, the config files remains. Click "
+"on this button to remove the old config files"
+msgstr ""
+"Mõnikord jäävad rakenduse eemaldamise järel seadustusfailid alles. Klõpsa "
+"sellel nupul, kui tahad need eemaldada"
+
+#: ../data/lsc.ui.h:4
+msgid ""
+"Some applications needs other packages to work, when you remove these "
+"applications the other packages aren't removed. Click on this button to "
+"remove the unused packages"
+msgstr ""
+"Osad rakendused vajavad töötamiseks mõningaid teisi pakette. Kui sa "
+"selliseid rakendusi eemaldad, siis sõltuvaid pakette ei eemaldata. Klõpsa "
+"nende eemaldamiseks seda nuppu"
+
+#: ../data/lsc.ui.h:5
+msgid ""
+"When you install an application, the files needed for the installation are "
+"downloaded locally. Click on this button to remove the unuseful downloaded "
+"packages"
+msgstr ""
+"Kui sa rakenduse paigaldad, siis laaditakse paigalduseks vajaliku failid "
+"sinu arvutisse. Klõpsa nende eemaldamiseks seda nuppu"
+
+#: ../data/lsc.ui.h:6
+msgid "_File"
+msgstr "_Fail"
+
+#: ../data/lsc.ui.h:7
+msgid "_Edit"
+msgstr "Õi_endus"
+
+#: ../data/lsc.ui.h:8 ../data/preferences.ui.h:17
+msgid "Software Properties"
+msgstr "Tarkvaraallikad"
+
+#: ../data/lsc.ui.h:9
+msgid "_Help"
+msgstr "_Abi"
+
+#: ../data/lsc.ui.h:10
+msgid "Home"
+msgstr "Kodu"
+
+#: ../data/lsc.ui.h:13
+msgid "Clean Disk"
+msgstr "Puhasta ketas"
+
+#: ../data/lsc.ui.h:15
+msgid ""
+"Update the programs list. Clicking on this\n"
+"button, the updated softwares list will be\n"
+"downloaded"
+msgstr ""
+"Värskendab rakenduste nimistu. Sellel nupul\n"
+"klõpsamine käivitab värske tarkvaranimekirja\n"
+"allalaadimise"
+
+#: ../data/lsc.ui.h:18
+msgid "Update"
+msgstr "Värskenda"
+
+#: ../data/lsc.ui.h:19 ../data/preferences.ui.h:7
+msgid "Preferences"
+msgstr "Eelistused"
+
+#: ../data/lsc.ui.h:20
+msgid "calculating packages..."
+msgstr "pakettide arvestamine..."
+
+#: ../data/lsc.ui.h:21
+msgid "page 1"
+msgstr "lehekülg 1"
+
+#: ../data/lsc.ui.h:22
+msgid "column"
+msgstr "tulp"
+
+#: ../data/lsc.ui.h:23
+msgid ""
+"                            No packages found\n"
+"Do you want you search all categories instead?"
+msgstr ""
+"                            Pakette ei leitud\n"
+"Soovid ehk proovida otsida kõigist kategooriatest?"
+
+#: ../data/lsc.ui.h:25
+msgid "No package matches"
+msgstr "Vastavaid pakette pole"
+
+#: ../data/lsc.ui.h:26
+msgid "page 2"
+msgstr "lehekülg 2"
+
+#: ../data/lsc.ui.h:27
+msgid "page 3"
+msgstr "lehekülg 3"
+
+#: ../data/lsc.ui.h:28
+msgid "Mb to download"
+msgstr "Mb alla laadida"
+
+#: ../data/lsc.ui.h:29
+msgid "Install the packages"
+msgstr "Pakettide paigaldamine"
+
+#: ../data/lsc.ui.h:31
+msgid "Download size"
+msgstr "Alla laaditav maht"
+
+#: ../data/lsc.ui.h:33
+msgid "Remove <package> from the Apps Basket"
+msgstr "Eemaldab <package> rakenduste korvist"
+
+#: ../data/lsc.ui.h:34
+msgid "Page 4"
+msgstr "lehekülg 4"
+
+#: ../data/lsc.ui.h:35
+msgid "label"
+msgstr "silt"
+
+#: ../data/lsc.ui.h:36
+msgid "button"
+msgstr "nupp"
+
+#: ../data/lsc.ui.h:37
+msgid ""
+"                 No Screenshot Found\n"
+"Please check your Internet connection"
+msgstr ""
+"                 Kuvatõmmist ei leitud\n"
+"Kontrolli, kas oled ühendatud Internetti"
+
+#: ../data/lsc.ui.h:39
+msgid "Click to maximize"
+msgstr "Klõpsa maksimeerimiseks"
+
+#: ../data/lsc.ui.h:40
+msgid "page 5"
+msgstr "lehekülg 5"
+
+#: ../data/lsc.ui.h:42
+msgid "No config files found"
+msgstr "Seadistusfaile ei leitud"
+
+#: ../data/lsc.ui.h:43
+msgid "Old configuration files"
+msgstr "Vanad seadistusfailid"
+
+#: ../data/lsc.ui.h:44
+msgid "No downloaded files found"
+msgstr "Allalaaditud faile ei leitud"
+
+#: ../data/lsc.ui.h:45
+msgid "Downloaded Packages"
+msgstr "Allalaaditud paketid"
+
+#: ../data/lsc.ui.h:46
+msgid "Clean up your disk"
+msgstr "Ketta puhastamine"
+
+#: ../data/lsc.ui.h:47
+msgid "Clean root trash"
+msgstr "Juure puhastamine rämpsust"
+
+#: ../data/lsc.ui.h:48
+msgid ""
+"The trash of the root user (located in /root)\n"
+"can be full of old and unuseful files, cleaning\n"
+"it often means a quite gain of disk space"
+msgstr ""
+"Juurkasutaja prügikast (asub kataloogis /root)\n"
+"võib olla tarbetuid faile täis. Selle tühjendamine\n"
+"toob sageli juurde märkimisväärselt vaba ruumi"
+
+#: ../data/lsc.ui.h:51
+msgid "Clean thumbnails cache"
+msgstr "Heiastuste puhvri puhastamine"
+
+#: ../data/lsc.ui.h:52
+msgid ""
+"When you open a folder with images,\n"
+"the thumbnails are dinamically created\n"
+"and saved in a hide folder in your home.\n"
+"Click here to clean this folder (this won't\n"
+"delete important files)"
+msgstr ""
+"Kui sa avad pilte sisaldava kausta,\n"
+"siis luuakse automaatselt nende heiastused,\n"
+"mis salvestatakse varjatult kodukataloogi.\n"
+"Klõpsa nende eemaldamiseks siia (see ei kaota\n"
+"ühtegi olulist faili)"
+
+#: ../data/lsc.ui.h:57
+msgid "Clean Configuration"
+msgstr "Puhasta seadistused"
+
+#: ../data/lsc.ui.h:58
+msgid "Clean Cache"
+msgstr "Puhasta puhver"
+
+#: ../data/lsc.ui.h:59
+msgid "Save Disk Space"
+msgstr "Säästa kettaruumi"
+
+#: ../data/lsc.ui.h:60
+msgid "page 6"
+msgstr "lehekülg 6"
+
+#: ../data/preferences.ui.h:1
+msgid "Beginner Mode"
+msgstr "Algaja režiim"
+
+#: ../data/preferences.ui.h:3
+msgid "Icons only"
+msgstr "Ainult ikoonid"
+
+#: ../data/preferences.ui.h:4
+msgid "Text only"
+msgstr "Ainult tekst"
+
+#: ../data/preferences.ui.h:5
+msgid "Text below icons"
+msgstr "Tekst ikoonide all"
+
+#: ../data/preferences.ui.h:6
+msgid "Text beside icons"
+msgstr "Tekst ikoonide kõrval"
+
+#: ../data/preferences.ui.h:9
+msgid "Mode of visualization"
+msgstr "Visualiseerimisviis"
+
+#: ../data/preferences.ui.h:10
+msgid ""
+"Choose the mode you want, in Beginner Mode are listed only the real "
+"applications, in Expert Mode are listed all the packages included libraries "
+"and command-line tools."
+msgstr ""
+"Vali soovitud režiim. Algaja režiimis näidatakse ainult tavapäraseid "
+"rakendusi. Ekspertrežiimis näidatakse lisaks ka teeke ja käsureautiliite."
+
+#: ../data/preferences.ui.h:11
+msgid "Use the packages database"
+msgstr "Pakettide andmebaasi kasutamine"
+
+#: ../data/preferences.ui.h:12
+msgid "Interface"
+msgstr "Kasutajaliides"
+
+#: ../data/preferences.ui.h:13
+msgid "ToolBar Style"
+msgstr "Tööriistariba stiil"
+
+#: ../data/preferences.ui.h:14
+msgid "Choose the ToolBar style"
+msgstr "Tööriistariba stiili valimine"
+
+#: ../data/preferences.ui.h:15
+msgid "Show MenuBar"
+msgstr "Menüüriba näitamine"
+
+#: ../data/preferences.ui.h:16
+msgid "Show StatusBar"
+msgstr "Staatuseriba näitamine"
+
+#: ../data/categories.ini.in .h:1
+msgid "Utilities"
+msgstr "Tööriistad"
+
+#: ../data/categories.ini.in .h:2
+msgid "Universal Access"
+msgstr "Kasutaja abivahendid"
+
+#: ../data/categories.ini.in .h:3
+msgid "Audio & Video"
+msgstr "Audio & video"
+
+#: ../data/categories.ini.in .h:4
+msgid "Games"
+msgstr "Mängud"
+
+#: ../data/categories.ini.in .h:5
+msgid "Graphic"
+msgstr "Graafika"
+
+#: ../data/categories.ini.in .h:6
+msgid "Internet"
+msgstr "Internet"
+
+#: ../data/categories.ini.in .h:7
+msgid "Education"
+msgstr "Haridus"
+
+#: ../data/categories.ini.in .h:8
+msgid "Science & Engineering"
+msgstr "Teadus & inseneritöö"
+
+#: ../data/categories.ini.in .h:9
+msgid "System"
+msgstr "Süsteem"
+
+#: ../data/categories.ini.in .h:10
+msgid "Developer Tools"
+msgstr "Arendustööriistad"
+
+#: ../data/categories.ini.in .h:11
+msgid "Themes & Tweaks"
+msgstr "Teemad & kohandus"
+
+#: ../data/categories.ini.in .h:12
+msgid "Fonts"
+msgstr "Kirjatüübid"
+
+#: ../data/categories.ini.in .h:13
+msgid "Office"
+msgstr "Kontoritöö"
+
+#: ../data/categories.ini.in .h:14
+msgid "All"
+msgstr "Kogu tarkvara"

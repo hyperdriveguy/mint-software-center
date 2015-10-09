@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=Lubuntu Software Center
+_GenericName=Software Center
+_Comment=Lets you choose from thousands of applications available for Ubuntu
+Exec=lubuntu-software-center
+Icon=lubuntu-software-center
+Terminal=false
+Type=Application
+Categories=PackageManager;GTK;System;Settings;
+StartupNotify=true
+_Keywords=Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;
